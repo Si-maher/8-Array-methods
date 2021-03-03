@@ -18,3 +18,12 @@ console.log(items);
 console.log(filteredItems);
 
 // Filter method does not alter the original array 
+
+// 2) Map 
+
+const mapItems = items.map((item) => {
+    // return item.name
+    return item.price
+})
+console.log(mapItems);
+// console.log(mapItems);
