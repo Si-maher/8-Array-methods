@@ -35,3 +35,10 @@ const findItem = items.find((item) => {
 })
 
 console.log(findItem);
+
+// 4) ForEach 
+
+items.forEach((item) => {
+    
+    console.log(item.price);
+})
