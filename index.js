@@ -27,3 +27,11 @@ const mapItems = items.map((item) => {
 })
 console.log(mapItems);
 // console.log(mapItems);
+
+// 3) Find 
+
+const findItem = items.find((item) => {
+    return item.name === 'Book'
+})
+
+console.log(findItem);
