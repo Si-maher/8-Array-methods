@@ -42,3 +42,32 @@ items.forEach((item) => {
     
     console.log(item.price);
 })
+
+// 5) Some 
+
+const sumOfItem = items.some((item) => {
+    return item.price <= 100
+})
+console.log(sumOfItem);
+
+// Returns true or false 
+
+// 6) Every 
+
+const everyItem =items.every ((item) => {
+    return item.price <=50
+})
+
+console.log(everyItem);
+
+// Similar to 'some' but 'every' checks all items to see if the condition is true or false 
+
+// 7)Reduce 
+
+const reduceItem = items.reduce((currentTotal, item) => {
+    return item.price + currentTotal
+},0)
+
+console.log(reduceItem);
+
+// Reduce needs a starting PointerEvent, in this case 0. It then subsequently adds each price to the total there after.
