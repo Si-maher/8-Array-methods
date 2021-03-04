@@ -70,4 +70,14 @@ const reduceItem = items.reduce((currentTotal, item) => {
 
 console.log(reduceItem);
 
-// Reduce needs a starting PointerEvent, in this case 0. It then subsequently adds each price to the total there after.
+// Reduce needs a starting counter, in this case 0. It then subsequently adds each price to the total there after.
+
+// 8) Includes 
+
+const numbers = [1,2,3,4,5]
+
+const includesNum = numbers.includes(9)
+
+console.log(includesNum);
+
+// Checks to see if value is included within the Array. Returns true or false 
